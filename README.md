@@ -1,7 +1,7 @@
 # Spotify Advanced SQL Project
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
- ![Image Alt]([image_url](https://github.com/San-Zay1/Spotify/blob/5e45474e58f7ad02742615123d1b7a62aa8397fc/spotify_logo.jpg)).
+ ![Image Alt](https://github.com/San-Zay1/Spotify/blob/5e45474e58f7ad02742615123d1b7a62aa8397fc/spotify_logo.jpg)
 
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
