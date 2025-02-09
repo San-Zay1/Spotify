@@ -81,20 +81,18 @@ After the data is inserted, various SQL queries can be written to explore and an
 2. Write a query to find tracks where the liveness score is above the average.
 3. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.**
 ```sql
-WITH cte
-AS
-(SELECT 
-	album,
-	MAX(energy) as highest_energy,
-	MIN(energy) as lowest_energery
-FROM spotify
-GROUP BY 1
+With energydifference as (
+select 
+album,
+max(energy) as 'Highest_energy',
+min(energy) as 'Lowest_energy'
+from spotify
+group by album
 )
-SELECT 
-	album,
-	highest_energy - lowest_energery as energy_diff
-FROM cte
-ORDER BY 2 DESC
+select album,
+Highest_energy-Lowest_energy as 'Energy_differences' 
+from energydifference 
+order by Highest_energy desc;
 ```
    
 5. Find tracks where the energy-to-liveness ratio is greater than 1.2.
