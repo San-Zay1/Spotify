@@ -4,7 +4,7 @@ Project Category: Advanced
  ![Image Alt](https://github.com/San-Zay1/Spotify/blob/5e45474e58f7ad02742615123d1b7a62aa8397fc/spotify_logo.jpg)
 
 ## Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+This project involves working with a Spotify dataset that contains information about songs, albums, and artists. The main tasks include organizing the dataset into a structured format, writing SQL queries (easy, medium, and advanced), and analyzing the data to find useful insights. The goal is to improve SQL skills and understand trends in the music industry.
 
 ```sql
 -- create table
@@ -57,11 +57,6 @@ After the data is inserted, various SQL queries can be written to explore and an
   
 #### Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
-
-### 5. Query Optimization
-In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
-- **Indexing**: Adding indexes on frequently queried columns.
-- **Query Execution Plan**: Using `EXPLAIN ANALYZE` to review and refine query performance.
   
 ---
 
@@ -108,16 +103,15 @@ ORDER BY 2 DESC
 
 
 ## Technology Stack
-- **Database**: PostgreSQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+- **Database**: Mysql
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions, CTE
+- **Tools**: MysqlWorkbench
 
 ## How to Run the Project
-1. Install PostgreSQL and pgAdmin (if not already installed).
+1. Install MySQL and MySQLWorkbench.
 2. Set up the database schema and tables using the provided normalization structure.
-3. Insert the sample data into the respective tables.
+3. Import the .csv file into the table.
 4. Execute SQL queries to solve the listed problems.
-5. Explore query optimization techniques for large datasets.
 
 ---
 
